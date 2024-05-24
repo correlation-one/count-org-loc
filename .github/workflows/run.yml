@@ -8,7 +8,7 @@ on:
         required: false
         type: string
 env:
-  GITHUB_TOKEN: ${{ secrets.ORG_GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.ORG_GITHUB_SECRET }}
 jobs:
   run:
     runs-on: macos-latest
